@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/event"
+        android:textAllCaps="true"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/attribute_text_size"
+        android:textStyle="bold"
+        tools:text="M 5.0-05" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_24dp"
+        android:text="@string/date"
+        android:textAllCaps="true"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/attribute_text_size"
+        android:textStyle="bold"
+        tools:text="wed, 27 NOV 2019 at 04:27:21\ngmt+02:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_24dp"
+        android:text="@string/tsunami_alert"
+        android:textAllCaps="true"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/text_view_tsunami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8dp"
+        android:layout_marginBottom="@dimen/spacing_16dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/attribute_text_size"
+        android:textStyle="bold"
+        tools:text="no" />
+
+</LinearLayout>
